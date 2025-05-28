@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "eatery-manager/1.0.0": {
+        "runtime": {
+          "eatery-manager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eatery-manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

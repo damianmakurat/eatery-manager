@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Damian\\GitHub\\eatery-manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\eatery-manager.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:eatery-manager.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\eatery-manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:eatery-manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\views\\managementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:views\\managementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\views\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:views\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\views\\ordersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:views\\ordersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\views\\ordersview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:views\\ordersview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\views\\reservationsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:views\\reservationsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\views\\tablesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:views\\tablesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\views\\tablesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:views\\tablesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-28T17:19:30.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "eatery-manager",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
+              "RelativeDocumentMoniker": "eatery-manager.csproj",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
+              "RelativeToolTip": "eatery-manager.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:18:32.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:17:31.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:17:27.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:17:26.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:15:55.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:14:15.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrdersView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\OrdersView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\OrdersView.xaml.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\OrdersView.xaml.cs",
+              "RelativeToolTip": "Views\\OrdersView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:13:35.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TablesView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\TablesView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TablesView.xaml.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\TablesView.xaml.cs",
+              "RelativeToolTip": "Views\\TablesView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:13:22.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuView.xaml",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\MenuView.xaml",
+              "RelativeDocumentMoniker": "Views\\MenuView.xaml",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\MenuView.xaml",
+              "RelativeToolTip": "Views\\MenuView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:12:51.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersView.xaml",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\OrdersView.xaml",
+              "RelativeDocumentMoniker": "Views\\OrdersView.xaml",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\OrdersView.xaml",
+              "RelativeToolTip": "Views\\OrdersView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:12:37.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TablesView.xaml",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\TablesView.xaml",
+              "RelativeDocumentMoniker": "Views\\TablesView.xaml",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\TablesView.xaml",
+              "RelativeToolTip": "Views\\TablesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:12:23.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReservationsView.xaml",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\ReservationsView.xaml",
+              "RelativeDocumentMoniker": "Views\\ReservationsView.xaml",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\ReservationsView.xaml",
+              "RelativeToolTip": "Views\\ReservationsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:12:04.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\ManagementView.xaml",
+              "RelativeDocumentMoniker": "Views\\ManagementView.xaml",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\Views\\ManagementView.xaml",
+              "RelativeToolTip": "Views\\ManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T17:11:50.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "eatery-manager",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
+              "RelativeDocumentMoniker": "eatery-manager.csproj",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
+              "RelativeToolTip": "eatery-manager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:09:03.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
