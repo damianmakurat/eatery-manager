@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eatery-manager", "eatery-manager.csproj", "{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eatery-manager-server", "..\eatery-manager-server\eatery-manager-server.csproj", "{C93743F0-60CF-E202-D425-326DAF5930BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93743F0-60CF-E202-D425-326DAF5930BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93743F0-60CF-E202-D425-326DAF5930BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93743F0-60CF-E202-D425-326DAF5930BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93743F0-60CF-E202-D425-326DAF5930BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
