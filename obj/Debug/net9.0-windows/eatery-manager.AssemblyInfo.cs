@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eatery-manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e181eddb3d2259c66a0097772e0f1de27db34a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e76633f1ee3e1322fc22b77f9284f57327186b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("eatery-manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eatery-manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
