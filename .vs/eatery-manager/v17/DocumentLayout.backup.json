@@ -3,7 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Damian\\GitHub\\eatery-manager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\webserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:webserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\shared\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\migrations\\20250422134554_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\migrations\\20250422134554_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -18,9 +43,6 @@
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\eatery-manager-server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\db\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\models\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,10 +51,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\eatery-manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:eatery-manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|c:\\users\\damian\\github\\eatery-manager\\webserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50AE04D-878D-4B5D-A319-096C6D0EEBEA}|eatery-manager.csproj|solutionrelative:webserverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -50,22 +68,10 @@
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\shared\\loginlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\shared\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -100,12 +106,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\services\\reservationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C93743F0-60CF-E202-D425-326DAF5930BF}|..\\eatery-manager-server\\eatery-manager-server.csproj|c:\\users\\damian\\github\\eatery-manager-server\\data\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -208,95 +208,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WebServerService.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\WebServerService.cs",
-              "RelativeDocumentMoniker": "WebServerService.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\WebServerService.cs",
-              "RelativeToolTip": "WebServerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:55:52.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "eatery-manager.csproj",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
-              "RelativeDocumentMoniker": "eatery-manager.csproj",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
-              "RelativeToolTip": "eatery-manager.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T17:09:03.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:10:39.995Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Reservations.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Models\\Reservations.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Models\\Reservations.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Models\\Reservations.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Models\\Reservations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:10:34.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250521083440_AddEmailAndRoleToLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:09:14.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250419205346_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAArwBwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:07:50.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250422134554_Login.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:07:54.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "20250422134554_Login.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250422134554_Login.Designer.cs",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250422134554_Login.Designer.cs",
@@ -309,7 +225,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
+              "Title": "eatery-manager.csproj",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
+              "RelativeDocumentMoniker": "eatery-manager.csproj",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\eatery-manager.csproj",
+              "RelativeToolTip": "eatery-manager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:09:03.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebServerService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\WebServerService.cs",
+              "RelativeDocumentMoniker": "WebServerService.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\WebServerService.cs",
+              "RelativeToolTip": "WebServerService.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAuwMIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:55:52.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Register.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Pages\\Register.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Pages\\Register.razor",
@@ -321,7 +262,146 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\LoginService.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:10:01.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Services\\MenuService.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\MenuService.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Services\\MenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:10:09.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "20250521083440_AddEmailAndRoleToLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Migrations\\20250521083440_AddEmailAndRoleToLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:09:14.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\App.razor",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\App.razor",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\App.razor",
+              "RelativeToolTip": "..\\eatery-manager-server\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T20:11:06.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Shared\\Error.razor",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Shared\\Error.razor",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Shared\\Error.razor",
+              "RelativeToolTip": "..\\eatery-manager-server\\Shared\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T20:06:35.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\_Imports.razor",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\_Imports.razor",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\_Imports.razor",
+              "RelativeToolTip": "..\\eatery-manager-server\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T20:11:25.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Program.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Program.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwB0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:37:33.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Db\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:10:39.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250422134554_Login.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Migrations\\20250422134554_Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:07:54.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250419205346_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Migrations\\20250419205346_InitialMigration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:07:50.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Reservations.cs",
+              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Models\\Reservations.cs",
+              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Models\\Reservations.cs",
+              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Models\\Reservations.cs",
+              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Models\\Reservations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:10:34.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Reservations.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Pages\\Reservations.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Pages\\Reservations.razor",
@@ -333,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": ".gitattributes",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\.gitattributes",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\.gitattributes",
@@ -345,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\appsettings.json",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\appsettings.json",
@@ -358,42 +438,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\_Imports.razor",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\_Imports.razor",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\_Imports.razor",
-              "RelativeToolTip": "..\\eatery-manager-server\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T20:11:25.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\App.razor",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\App.razor",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\App.razor",
-              "RelativeToolTip": "..\\eatery-manager-server\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T20:11:06.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Program.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Program.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Program.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T18:37:33.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ReservationsLayout.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Shared\\ReservationsLayout.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Shared\\ReservationsLayout.razor",
@@ -405,19 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Shared\\Error.razor",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Shared\\Error.razor",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Shared\\Error.razor",
-              "RelativeToolTip": "..\\eatery-manager-server\\Shared\\Error.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-28T20:06:35.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "eatery-manager-server.csproj",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\eatery-manager-server.csproj",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\eatery-manager-server.csproj",
@@ -429,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "LoginLayout.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Shared\\LoginLayout.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Shared\\LoginLayout.razor",
@@ -441,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Tables.cs",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Models\\Tables.cs",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Models\\Tables.cs",
@@ -453,7 +485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Shared\\MainLayout.razor",
@@ -465,7 +497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Routes.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Routes.razor",
@@ -477,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -489,7 +521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "About.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Pages\\About.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Pages\\About.razor",
@@ -501,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Pages\\Home.razor",
@@ -513,7 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Pages\\Index.razor",
@@ -525,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Pages\\Login.razor",
@@ -537,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Main.razor",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Pages\\Main.razor",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Pages\\Main.razor",
@@ -549,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "TextBoxLogger.cs",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager\\TextBoxLogger.cs",
               "RelativeDocumentMoniker": "TextBoxLogger.cs",
@@ -561,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "LICENSE",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\LICENSE",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\LICENSE",
@@ -573,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "20250422141608_Reservations.cs",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Migrations\\20250422141608_Reservations.cs",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Migrations\\20250422141608_Reservations.cs",
@@ -585,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ReservationsService.cs",
               "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\ReservationsService.cs",
               "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Services\\ReservationsService.cs",
@@ -594,30 +626,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T20:10:15.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "MenuService.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\MenuService.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Services\\MenuService.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\MenuService.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Services\\MenuService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:10:09.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "..\\eatery-manager-server\\Data\\Services\\LoginService.cs",
-              "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager-server\\Data\\Services\\LoginService.cs",
-              "RelativeToolTip": "..\\eatery-manager-server\\Data\\Services\\LoginService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:10:01.881Z"
             },
             {
               "$type": "Document",
@@ -862,7 +870,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Damian\\GitHub\\eatery-manager\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBZwBUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAACBjwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T17:15:55.888Z"
             },

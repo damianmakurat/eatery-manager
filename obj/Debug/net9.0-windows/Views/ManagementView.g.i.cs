@@ -53,7 +53,7 @@ namespace eatery_manager.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/eatery-manager;V1.0.0.0;component/views/managementview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/eatery-manager;component/views/managementview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ManagementView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
