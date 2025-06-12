@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using eatery_manager_server.Data.Db;
 using eatery_manager_server.Data.Services;
+using Microsoft.AspNetCore.Components.Authorization;
 
 public class WebServerService
 {
@@ -24,7 +25,7 @@ public class WebServerService
 
     public void Start()
     {
-        if (_host != null) return; // już działa
+        if (_host != null) return;
 
         string blazorProjectPath = @"C:\Users\Damian\GitHub\eatery-manager-server";
 
@@ -35,53 +36,36 @@ public class WebServerService
             EnvironmentName = "Development"
         });
 
-        // Dodaj własnego loggera przekazującego logi do WPF
         builder.Logging.ClearProviders();
         builder.Logging.AddProvider(new TextBoxLoggerProvider(_logAction));
         builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
-        // Konfiguracja bazy danych - WAŻNE: musi być przed innymi serwisami
         string dataFolder = Path.Combine(blazorProjectPath, "Data");
         string dbPath = Path.Combine(dataFolder, "database.db");
 
-        // Upewnij się, że folder Data istnieje
         if (!Directory.Exists(dataFolder))
         {
             Directory.CreateDirectory(dataFolder);
             _logAction?.Invoke($"[Information] Created Data directory: {dataFolder}");
         }
 
-        _logAction?.Invoke($"[Information] Database path: {dbPath}");
-        _logAction?.Invoke($"[Information] Database exists: {File.Exists(dbPath)}");
-
-        // Sprawdź czy plik nie jest zablokowany
-        try
-        {
-            using (var fileStream = File.Open(dbPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
-            {
-                _logAction?.Invoke("[Information] Database file is accessible");
-            }
-        }
-        catch (Exception ex)
-        {
-            _logAction?.Invoke($"[Warning] Database file access test failed: {ex.Message}");
-        }
-
-        // Użyj pełnej ścieżki w connection string z dodatkowymi opcjami
         string connectionString = $"Data Source={dbPath};Mode=ReadWriteCreate;Cache=Shared;Foreign Keys=True";
-        _logAction?.Invoke($"[Information] Connection string: {connectionString}");
-
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseSqlite(connectionString));
 
-        // Dodaj Razor Components
+        // Nowe serwisy i funkcje
         builder.Services.AddRazorComponents().AddInteractiveServerComponents();
 
-        // Dodaj wszystkie serwisy jak w oryginalnym Program.cs
         builder.Services.AddScoped<LoginService>();
         builder.Services.AddScoped<MenuService>();
+        builder.Services.AddScoped<ReservationsService>();
+        builder.Services.AddScoped<TablesService>();
 
-        // Dodaj Server-Side Blazor z szczegółowymi błędami
+        builder.Services.AddScoped<CustomAuthenticationStateProvider>();
+        builder.Services.AddScoped<AuthenticationStateProvider>(sp =>
+            sp.GetRequiredService<CustomAuthenticationStateProvider>());
+        builder.Services.AddAuthorizationCore();
+
         builder.Services.AddServerSideBlazor(options =>
         {
             options.DetailedErrors = true;
@@ -89,22 +73,20 @@ public class WebServerService
 
         var app = builder.Build();
 
-        // Upewnij się, że baza danych jest utworzona
+        //Inicjalizacja bazy danych(z seedem)
         try
         {
-            using (var scope = app.Services.CreateScope())
-            {
-                var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-                context.Database.EnsureCreated(); // Tworzy bazę danych jeśli nie istnieje
-                _logAction?.Invoke("[Information] Database initialized successfully");
-            }
+            using var scope = app.Services.CreateScope();
+            var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            dbContext.Database.EnsureCreated();
+            DatabaseInitializer.SeedAsync(dbContext).Wait();
+            _logAction?.Invoke("[Information] Database initialized successfully");
         }
         catch (Exception ex)
         {
-            _logAction?.Invoke($"[Error] Database initialization failed: {ex.Message}");
+            _logAction?.Invoke($"[Error] Database init failed: {ex.Message}");
         }
 
-        // Obsługa błędów
         if (app.Environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
@@ -112,36 +94,16 @@ public class WebServerService
         else
         {
             app.UseExceptionHandler("/Error");
+            app.UseHsts();
         }
 
-        // Middleware do logowania requestów z lepszą obsługą błędów
-        app.Use(async (context, next) =>
-        {
-            _logAction?.Invoke($"[Debug] Request: {context.Request.Method} {context.Request.Path}");
-            try
-            {
-                await next();
-                _logAction?.Invoke($"[Debug] Response: {context.Response.StatusCode}");
-            }
-            catch (InvalidOperationException ex) when (ex.Message.Contains("There is no registered service"))
-            {
-                _logAction?.Invoke($"[Error] DI Registration Error: {ex.Message}");
-                _logAction?.Invoke($"[Error] Sprawdź czy wszystkie serwisy są zarejestrowane w Program.cs lub WebServerService");
-                throw;
-            }
-            catch (Exception ex)
-            {
-                _logAction?.Invoke($"[Error] Unhandled exception in request {context.Request.Path}: {ex.Message}");
-                _logAction?.Invoke($"[Error] Stack trace: {ex.StackTrace}");
-                throw;
-            }
-        });
-
+        app.UseHttpsRedirection();
         app.UseStaticFiles();
         app.UseRouting();
         app.UseAntiforgery();
 
-        app.MapRazorComponents<eatery_manager_server.App>().AddInteractiveServerRenderMode();
+        app.MapRazorComponents<eatery_manager_server.App>()
+            .AddInteractiveServerRenderMode();
 
         _cts = new CancellationTokenSource();
         _host = app;
