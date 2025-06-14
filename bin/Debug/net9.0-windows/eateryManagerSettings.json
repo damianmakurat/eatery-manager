@@ -1,0 +1,7 @@
+{
+  "httpState": false,
+  "httpsState": true,
+  "httpPortListen": 5000,
+  "httpsPortListen": 5001,
+  "mainFilesPath": "C:\\Users\\Damian\\GitHub\\eatery-manager\\bin\\Debug\\net9.0-windows\\"
+}

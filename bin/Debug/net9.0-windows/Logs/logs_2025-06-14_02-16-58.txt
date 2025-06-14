@@ -1,0 +1,57 @@
+[2025-06-14 02:16:59] [Information] Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2025-06-14 02:17:00] [Information] Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Menu" AS "m")
+[2025-06-14 02:17:00] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Tables" AS "t")
+[2025-06-14 02:17:00] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Reservations" AS "r")
+[2025-06-14 02:17:00] [Information] Now listening on: https://localhost:5001
+[2025-06-14 02:17:00] [Information] Application started. Press Ctrl+C to shut down.
+[2025-06-14 02:17:00] [Information] Hosting environment: Development
+[2025-06-14 02:17:00] [Information] Content root path: C:\Users\Damian\GitHub\eatery-manager\bin\Debug\net9.0-windows\
+[2025-06-14 02:17:07] [Information] Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "r"."ReservationId", "r"."Date", "r"."EndTime", "r"."Name", "r"."StartTime", "r"."Surname", "r"."TableId", "r"."TablesTableId", "t"."TableId", "t"."Capacity", "t"."LocationX", "t"."LocationY"
+FROM "Reservations" AS "r"
+LEFT JOIN "Tables" AS "t" ON "r"."TablesTableId" = "t"."TableId"
+[2025-06-14 02:17:07] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "r"."ReservationId", "r"."Date", "r"."EndTime", "r"."Name", "r"."StartTime", "r"."Surname", "r"."TableId", "r"."TablesTableId", "t"."TableId", "t"."Capacity", "t"."LocationX", "t"."LocationY"
+FROM "Reservations" AS "r"
+LEFT JOIN "Tables" AS "t" ON "r"."TablesTableId" = "t"."TableId"
+[2025-06-14 02:17:13] [Information] Executed DbCommand (3ms) [Parameters=[@__date_0='?' (DbType = Date), @__startTime_1='?' (DbType = Time), @__endTime_2='?' (DbType = Time)], CommandType='Text', CommandTimeout='30']
+SELECT "r"."TableId"
+FROM "Reservations" AS "r"
+WHERE "r"."Date" = @__date_0 AND "r"."EndTime" > @__startTime_1 AND "r"."StartTime" < @__endTime_2
+[2025-06-14 02:17:13] [Information] Executed DbCommand (0ms) [Parameters=[@__reservedTableIds_0='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+SELECT "t"."TableId", "t"."Capacity", "t"."LocationX", "t"."LocationY"
+FROM "Tables" AS "t"
+WHERE "t"."TableId" NOT IN (
+    SELECT "r"."value"
+    FROM json_each(@__reservedTableIds_0) AS "r"
+)
+[2025-06-14 02:17:17] [Information] Executed DbCommand (1ms) [Parameters=[@__reservation_TableId_0='?' (DbType = Int32), @__reservation_Date_1='?' (DbType = Date), @__reservation_StartTime_2='?' (DbType = Time), @__reservation_EndTime_3='?' (DbType = Time)], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Reservations" AS "r"
+    WHERE "r"."TableId" = @__reservation_TableId_0 AND "r"."Date" = @__reservation_Date_1 AND "r"."EndTime" > @__reservation_StartTime_2 AND "r"."StartTime" < @__reservation_EndTime_3)
+[2025-06-14 02:17:17] [Information] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Date), @p1='?' (DbType = Time), @p2='?' (Size = 2), @p3='?' (DbType = Time), @p4='?' (Size = 2), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Reservations" ("Date", "EndTime", "Name", "StartTime", "Surname", "TableId", "TablesTableId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "ReservationId";
+[2025-06-14 02:17:17] [Information] Executed DbCommand (0ms) [Parameters=[@__date_0='?' (DbType = Date), @__startTime_1='?' (DbType = Time), @__endTime_2='?' (DbType = Time)], CommandType='Text', CommandTimeout='30']
+SELECT "r"."TableId"
+FROM "Reservations" AS "r"
+WHERE "r"."Date" = @__date_0 AND "r"."EndTime" > @__startTime_1 AND "r"."StartTime" < @__endTime_2
+[2025-06-14 02:17:17] [Information] Executed DbCommand (0ms) [Parameters=[@__reservedTableIds_0='?' (Size = 7)], CommandType='Text', CommandTimeout='30']
+SELECT "t"."TableId", "t"."Capacity", "t"."LocationX", "t"."LocationY"
+FROM "Tables" AS "t"
+WHERE "t"."TableId" NOT IN (
+    SELECT "r"."value"
+    FROM json_each(@__reservedTableIds_0) AS "r"
+)

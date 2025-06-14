@@ -1,0 +1,40 @@
+﻿ 
+<Window x:Class="eatery_manager.Windows.TablesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eatery_manager.Windows"
+        mc:Ignorable="d"
+        Title="TablesWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- DataGrid z listą stolików -->
+        <DataGrid x:Name="TablesDataGrid" 
+              Grid.Row="0"
+              AutoGenerateColumns="False"
+              CanUserAddRows="False"
+              ItemsSource="{Binding Tables}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding TableId}" IsReadOnly="True" Width="50"/>
+                <DataGridTextColumn Header="Location X" Binding="{Binding LocationX}" Width="*"/>
+                <DataGridTextColumn Header="Location Y" Binding="{Binding LocationY}" Width="*"/>
+                <DataGridTextColumn Header="Capacity" Binding="{Binding Capacity}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Formularz dodawania nowego stolika -->
+        <StackPanel Grid.Row="1" Margin="0,10,0,0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left" >
+            <!-- PlaceholderText is not supported in WPF TextBox. Use a Label or TextBlock for placeholder functionality -->
+            <TextBox x:Name="TbLocationX" Width="100" Margin="0,0,10,0" Text="Location X" Foreground="Gray"/>
+            <TextBox x:Name="TbLocationY" Width="100" Margin="0,0,10,0" Text="Location Y" Foreground="Gray"/>
+            <TextBox x:Name="TbCapacity" Width="60" Margin="0,0,10,0" Text="Capacity" Foreground="Gray"/>
+
+            <Button Content="Dodaj stolik" Width="100" Click="AddTable_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

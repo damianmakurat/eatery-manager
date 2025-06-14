@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
 C:\Users\Damian\GitHub\eatery-manager\App.xaml
-62082386642
+91355102210
 1-1798566814
-12-1807274083
+16-221565871
 347-461671741
-MainWindow.xaml;Views\ManagementView.xaml;Views\MenuView.xaml;Views\OrdersView.xaml;Views\ReservationsView.xaml;Views\TablesView.xaml;
+MainWindow.xaml;Views\ManagementView.xaml;Views\MenuView.xaml;Views\OrdersView.xaml;Views\ReservationsView.xaml;Views\TablesView.xaml;Windows\MenuWindow.xaml;Windows\ReservationsWindow.xaml;Windows\TablesWindow.xaml;
 
 False
 

@@ -1,0 +1,45 @@
+[2025-06-14 01:26:26] [Information] Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2025-06-14 01:26:26] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Menu" AS "m")
+[2025-06-14 01:26:26] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Tables" AS "t")
+[2025-06-14 01:26:26] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Reservations" AS "r")
+[2025-06-14 01:26:27] [Information] Now listening on: http://localhost:5000
+[2025-06-14 01:26:27] [Information] Application started. Press Ctrl+C to shut down.
+[2025-06-14 01:26:27] [Information] Hosting environment: Development
+[2025-06-14 01:26:27] [Information] Content root path: C:\Users\Damian\GitHub\eatery-manager\bin\Debug\net9.0-windows\
+[2025-06-14 01:28:16] [Warning] Failed to determine the https port for redirect.
+[2025-06-14 01:28:16] [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "m"."Id", "m"."Category", "m"."Ingredients", "m"."Name", "m"."Order", "m"."Price"
+FROM "Menu" AS "m"
+[2025-06-14 01:28:17] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT DISTINCT "m"."Category"
+FROM "Menu" AS "m"
+WHERE "m"."Category" <> ''
+[2025-06-14 01:28:18] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "m"."Id", "m"."Category", "m"."Ingredients", "m"."Name", "m"."Order", "m"."Price"
+FROM "Menu" AS "m"
+[2025-06-14 01:28:18] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT DISTINCT "m"."Category"
+FROM "Menu" AS "m"
+WHERE "m"."Category" <> ''
+[2025-06-14 01:28:19] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "r"."ReservationId", "r"."Date", "r"."EndTime", "r"."Name", "r"."StartTime", "r"."Surname", "r"."TableId", "r"."TablesTableId", "t"."TableId", "t"."Capacity", "t"."LocationX", "t"."LocationY"
+FROM "Reservations" AS "r"
+LEFT JOIN "Tables" AS "t" ON "r"."TablesTableId" = "t"."TableId"
+[2025-06-14 01:28:21] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "m"."Id", "m"."Category", "m"."Ingredients", "m"."Name", "m"."Order", "m"."Price"
+FROM "Menu" AS "m"
+[2025-06-14 01:28:21] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT DISTINCT "m"."Category"
+FROM "Menu" AS "m"
+WHERE "m"."Category" <> ''
+[2025-06-14 01:28:44] [Information] Application is shutting down...

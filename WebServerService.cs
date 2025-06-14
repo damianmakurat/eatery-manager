@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using eatery_manager_server.Data.Db;
 using eatery_manager_server.Data.Services;
+using eatery_manager;
 using Microsoft.AspNetCore.Components.Authorization;
 
 public class WebServerService
@@ -27,12 +28,17 @@ public class WebServerService
     {
         if (_host != null) return;
 
-        string blazorProjectPath = @"C:\Users\Damian\GitHub\eatery-manager-server";
+        var settings = AppSettings.Load();
+        if (settings == null)
+        {
+            _logAction?.Invoke("[Error] Nie udało się załadować ustawień aplikacji.");
+            return;
+        }
 
         var builder = WebApplication.CreateBuilder(new WebApplicationOptions
         {
-            ContentRootPath = blazorProjectPath,
-            WebRootPath = Path.Combine(blazorProjectPath, "wwwroot"),
+            ContentRootPath = settings.mainFilesPath,
+            WebRootPath = Path.Combine(settings.mainFilesPath, "wwwroot"),
             EnvironmentName = "Development"
         });
 
@@ -40,7 +46,7 @@ public class WebServerService
         builder.Logging.AddProvider(new TextBoxLoggerProvider(_logAction));
         builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
-        string dataFolder = Path.Combine(blazorProjectPath, "Data");
+        string dataFolder = Path.Combine(settings.mainFilesPath, "Data");
         string dbPath = Path.Combine(dataFolder, "database.db");
 
         if (!Directory.Exists(dataFolder))
@@ -53,7 +59,6 @@ public class WebServerService
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseSqlite(connectionString));
 
-        // Nowe serwisy i funkcje
         builder.Services.AddRazorComponents().AddInteractiveServerComponents();
 
         builder.Services.AddScoped<LoginService>();
@@ -73,7 +78,6 @@ public class WebServerService
 
         var app = builder.Build();
 
-        //Inicjalizacja bazy danych(z seedem)
         try
         {
             using var scope = app.Services.CreateScope();
@@ -104,6 +108,12 @@ public class WebServerService
 
         app.MapRazorComponents<eatery_manager_server.App>()
             .AddInteractiveServerRenderMode();
+
+        // Dynamika portów z konfiguracji
+        if (settings.httpState)
+            app.Urls.Add($"http://localhost:{settings.httpPortListen}");
+        if (settings.httpsState)
+            app.Urls.Add($"https://localhost:{settings.httpsPortListen}");
 
         _cts = new CancellationTokenSource();
         _host = app;
@@ -140,13 +150,15 @@ public class WebServerService
 }
 
 // Logger do przekazywania logów do WPF
-public class TextBoxLogger : ILogger
+public class TextBoxLogger : ILogger, IDisposable
 {
     private readonly Action<string> _logAction;
+    private readonly StreamWriter _fileWriter;
 
-    public TextBoxLogger(Action<string> logAction)
+    public TextBoxLogger(Action<string> logAction, StreamWriter fileWriter)
     {
         _logAction = logAction;
+        _fileWriter = fileWriter;
     }
 
     public IDisposable BeginScope<TState>(TState state) => null;
@@ -158,21 +170,60 @@ public class TextBoxLogger : ILogger
         if (formatter != null)
         {
             var logMessage = formatter(state, exception);
-            _logAction?.Invoke($"[{logLevel}] {logMessage}");
+            var finalMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] [{logLevel}] {logMessage}";
+
+            // Log do WPF TextBox
+            _logAction?.Invoke(finalMessage);
+
+            // Log do pliku
+            try
+            {
+                _fileWriter.WriteLine(finalMessage);
+                _fileWriter.Flush();
+            }
+            catch
+            {
+                // Nie rzucamy dalej, żeby logowanie nie przerywało działania
+            }
         }
+    }
+
+    public void Dispose()
+    {
+        _fileWriter?.Dispose();
     }
 }
 
 public class TextBoxLoggerProvider : ILoggerProvider
 {
     private readonly Action<string> _logAction;
+    private readonly StreamWriter _fileWriter;
 
     public TextBoxLoggerProvider(Action<string> logAction)
     {
         _logAction = logAction;
+
+        // Nazwa pliku logu z datą i godziną startu
+        string logsDir = Path.Combine(AppContext.BaseDirectory, "Logs");
+        if (!Directory.Exists(logsDir))
+            Directory.CreateDirectory(logsDir);
+
+        string logFileName = $"logs_{DateTime.Now:yyyy-MM-dd_HH-mm-ss}.txt";
+        string logFilePath = Path.Combine(logsDir, logFileName);
+
+        _fileWriter = new StreamWriter(new FileStream(logFilePath, FileMode.Create, FileAccess.Write, FileShare.Read))
+        {
+            AutoFlush = true
+        };
     }
 
-    public ILogger CreateLogger(string categoryName) => new TextBoxLogger(_logAction);
+    public ILogger CreateLogger(string categoryName)
+    {
+        return new TextBoxLogger(_logAction, _fileWriter);
+    }
 
-    public void Dispose() { }
+    public void Dispose()
+    {
+        _fileWriter?.Dispose();
+    }
 }

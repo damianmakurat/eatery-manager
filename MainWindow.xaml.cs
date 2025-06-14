@@ -18,7 +18,10 @@ namespace eatery_manager
     {
         public MainWindow()
         {
+            //AppSettings.CreateDefaultSettingsFileIfNotExists();
             InitializeComponent();
+            ShowContent(new Views.ManagementView());
+
         }
         private void TitleBar_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -51,29 +54,47 @@ namespace eatery_manager
             ContentPanel.Children.Add(control);
         }
 
-        private void Management_Click(object sender, RoutedEventArgs e)
-        {
-            ShowContent(new Views.ManagementView());
-        }
+        //private void Management_Click(object sender, RoutedEventArgs e)
+        //{
+        //    ShowContent(new Views.ManagementView());
+        //}
 
+        //private void Tables_Click(object sender, RoutedEventArgs e)
+        //{
+        //    ShowContent(new Views.TablesView());
+        //}
+
+        //private void Orders_Click(object sender, RoutedEventArgs e)
+        //{
+        //    ShowContent(new Views.OrdersView());
+        //}
+        //private void Reservations_Click(object sender, RoutedEventArgs e)
+        //{
+        //    ShowContent(new Views.ReservationsView());
+        //}
+
+        //private void Menu_Click(object sender, RoutedEventArgs e)
+        //{
+        //    ShowContent(new Views.MenuView());
+        //}
         private void Tables_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent(new Views.TablesView());
+            var window = new Windows.TablesWindow();
+            window.Show();
         }
 
-        private void Orders_Click(object sender, RoutedEventArgs e)
-        {
-            ShowContent(new Views.OrdersView());
-        }
         private void Reservations_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent(new Views.ReservationsView());
+            var window = new Windows.ReservationsWindow();
+            window.Show();
         }
 
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent(new Views.MenuView());
+            var window = new Windows.MenuWindow();
+            window.Show();
         }
+
 
     }
 }

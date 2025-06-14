@@ -1,0 +1,26 @@
+[2025-06-14 01:39:13] [Information] Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+[2025-06-14 01:39:13] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Menu" AS "m")
+[2025-06-14 01:39:13] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Tables" AS "t")
+[2025-06-14 01:39:13] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Reservations" AS "r")
+[2025-06-14 01:39:14] [Information] Now listening on: https://localhost:5001
+[2025-06-14 01:39:14] [Information] Application started. Press Ctrl+C to shut down.
+[2025-06-14 01:39:14] [Information] Hosting environment: Development
+[2025-06-14 01:39:14] [Information] Content root path: C:\Users\Damian\GitHub\eatery-manager\bin\Debug\net9.0-windows\
+[2025-06-14 01:39:15] [Information] Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "r"."ReservationId", "r"."Date", "r"."EndTime", "r"."Name", "r"."StartTime", "r"."Surname", "r"."TableId", "r"."TablesTableId", "t"."TableId", "t"."Capacity", "t"."LocationX", "t"."LocationY"
+FROM "Reservations" AS "r"
+LEFT JOIN "Tables" AS "t" ON "r"."TablesTableId" = "t"."TableId"
+[2025-06-14 01:39:17] [Information] Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "r"."ReservationId", "r"."Date", "r"."EndTime", "r"."Name", "r"."StartTime", "r"."Surname", "r"."TableId", "r"."TablesTableId", "t"."TableId", "t"."Capacity", "t"."LocationX", "t"."LocationY"
+FROM "Reservations" AS "r"
+LEFT JOIN "Tables" AS "t" ON "r"."TablesTableId" = "t"."TableId"

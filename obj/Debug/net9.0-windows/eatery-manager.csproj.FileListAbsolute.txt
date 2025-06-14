@@ -165,3 +165,9 @@ C:\Users\Damian\GitHub\eatery-manager\bin\Debug\net9.0-windows\ru\Microsoft.Code
 C:\Users\Damian\GitHub\eatery-manager\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Damian\GitHub\eatery-manager\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Damian\GitHub\eatery-manager\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Damian\GitHub\eatery-manager\obj\Debug\net9.0-windows\Windows\MenuWindow.g.cs
+C:\Users\Damian\GitHub\eatery-manager\obj\Debug\net9.0-windows\Windows\ReservationsWindow.g.cs
+C:\Users\Damian\GitHub\eatery-manager\obj\Debug\net9.0-windows\Windows\TablesWindow.g.cs
+C:\Users\Damian\GitHub\eatery-manager\obj\Debug\net9.0-windows\Windows\MenuWindow.baml
+C:\Users\Damian\GitHub\eatery-manager\obj\Debug\net9.0-windows\Windows\ReservationsWindow.baml
+C:\Users\Damian\GitHub\eatery-manager\obj\Debug\net9.0-windows\Windows\TablesWindow.baml
